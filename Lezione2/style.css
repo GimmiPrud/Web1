@@ -1,0 +1,29 @@
+/* Giammarco Prudenzi */
+
+/* Si possono utilizzare gli stili dentro una pagina css (come in questo esempio) e si possono richiamare sulle pagine che vogliamo modificare attraverso 
+l'utilizzo del link associato */
+
+body {
+    background-color: rgb(32, 218, 88);
+    text-align: right;
+}
+
+div p {
+    color: rgb(42, 29, 224);
+}
+
+p {
+    text-align: center;
+    font-size: large;
+}
+
+#testorosso {      
+    color: red;
+}
+
+.testoverde {
+    color: rgb(24, 207, 8);
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
