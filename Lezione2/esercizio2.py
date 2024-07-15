@@ -54,5 +54,5 @@ pag_13 = '''<div class="grid-item">
 N = 3
 pag = pag_11 + N * pag_12 + pag_13
 
-with open("esercizio2.html") as file:
+with open("esercizio2.html", "w") as file:
     file.write(pag)
