@@ -1,3 +1,32 @@
+pag_10 = '''<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {   
+        background-position: center;
+        background-image: url(image/maxresdefault.jpg);
+        }
+        .grid-container {
+        display: grid;
+        height: 400px;
+        align-content: center;
+        display: table;
+        }
+        .grid-item {
+        background-color: rgba(243, 239, 20, 0.8);
+        border: 1pc solid rgba(226, 9, 117, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        }
+        </style>
+    </head>
+        <body>
+            <center>
+                <font style="color: rgb(255, 217, 4);">
+                <h1>COMPONENTI COMPUTER </h1>
+            </font>'''
+
 pag_11  =  '''
     <div class="grid-container">
     <div class="grid-item">
@@ -52,7 +81,7 @@ pag_13 = '''<div class="grid-item">
     </div>  '''
 
 N = 3
-pag = pag_11 + N * pag_12 + pag_13
+pag = pag_10 + pag_11 + N * pag_12 + pag_13
 
 with open("esercizio2.html", "w") as file:
     file.write(pag)
