@@ -1,4 +1,4 @@
-pag_1  =  '''
+pag_11  =  '''
     <div class="grid-container">
     <div class="grid-item">
         <div class="row">
@@ -17,7 +17,7 @@ pag_1  =  '''
           </div>
     </div>'''
 
-pag_2 = '''  <div class="grid-item">
+pag_12 = '''  <div class="grid-item">
         <div class="row">
             <div class="col">
               <img src="image/scheda_madre.webp" style="height: 30pc;">
@@ -34,7 +34,7 @@ pag_2 = '''  <div class="grid-item">
           </div>
     </div>'''
 
-pag_3 = '''<div class="grid-item">
+pag_13 = '''<div class="grid-item">
         <div class="row">
             <div class="col">
                 <img src="image/scheda_video.png" alt="schede video" style="height: 30pc;">
@@ -50,3 +50,8 @@ pag_3 = '''<div class="grid-item">
             </div>
           </div>
     </div>  '''
+
+N = 3
+pag = pag_11 + N * pag_12 + pag_13
+
+    
