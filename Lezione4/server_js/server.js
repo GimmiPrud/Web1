@@ -27,3 +27,5 @@ app.get('/gestisciDatiForm', (req, res) => {
     console.log(req.query.fcognome);
     res.send("<html>Buona serata a " + req.query.fname + " " + req.query.fcognome + "</html>");
 })
+
+
