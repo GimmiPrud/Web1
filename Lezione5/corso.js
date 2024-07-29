@@ -30,15 +30,15 @@ process.exit(0);
 */
 
 
-var a;
-var b;
-a = prompt("Inserisci primo numero:")
-b = prompt("Inserisci secondo numero:")
-c = a + b
-console.log("La somma vale " + c) 
-process.exit(0);
+// var a;
+// var b;
+// a = prompt("Inserisci primo numero:")
+// b = prompt("Inserisci secondo numero:")
+// c = a + b
+// console.log("La somma vale " + c) 
+// process.exit(0);
 
-/*
+
 var a;
 var b;
 a = prompt("Inserisci primo numero:")
@@ -47,7 +47,7 @@ a1 = parseInt(a)
 b1 = parseInt(b)
 c = a1 + b1
 console.log("La somma vale " + c) 
-*/
+process.exit(0);
 
 
 a = prompt("Inserisci primo numero:")
