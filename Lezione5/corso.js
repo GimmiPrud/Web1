@@ -62,10 +62,6 @@ if(c=="-")
 
 console.log("Risultato " + d) 
 
-
-
-
-
 /*
 ESERCIZIO: crea una variabile, chiamale sStringaDaStampare, copia nella variabile un 
 messaggio e poi visualizza a schermo il messaggio richiamando la funzione console.log
