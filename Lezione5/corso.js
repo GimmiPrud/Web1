@@ -228,9 +228,6 @@ function TerminaGruppoLettere
 
 
 
-
-
-
 /*
 var iRet;
 var sMiaStringa = "caciocavalloGFR";
@@ -249,10 +246,6 @@ else
 	console.log("Termina con vocale")
 
 */
-
-
-
-
 
 
 /*
@@ -279,10 +272,6 @@ else{
 */
 
 
-
-
-
-
 //***************
 //Esempio num. 2
 /*
@@ -302,10 +291,6 @@ console.log("Il tipo della var A \u00E8 " + typeof (A) + "\n");
 A = Boolean(10 > 9);
 console.log("Il tipo della var A \u00E8 " + typeof (A) + "\n");
 */
-
-
-
-
 
 
 //***************
@@ -377,7 +362,6 @@ console.log(values[0]);
 */
 
 
-
 //ESEMPIO user defined objects (person) and nested user defined objects (car)
 /*
 function Person(name, age, sex) {
@@ -424,11 +408,6 @@ else
 */
 
 
-
-
-
-
-
 /*
 var sMail = "ciaociao";
 var iNumero = 0;
@@ -447,11 +426,6 @@ for (var i = 0; i < len; i++)
  console.log("Il numero di lettere a e " + na);
 
 */
-
-
-
-
-
 
 
 /*
@@ -495,12 +469,6 @@ console.log(miaIpotenusa);
 */
 
 
-
-
-
-
-
-
 //********************************
 //ALGORITMO DI EUCLIDE
 /*
@@ -520,14 +488,6 @@ while (resto != 0)
 }
 console.log("Il MCD è " + B);
 */
-
-
-
-
-
-
-
-
 
 
 //Esempio num. 6
@@ -579,9 +539,6 @@ switch (nGiornoOggi)
 }
 console.log("Buon " + day);
 */
-
-
-
 
 
 //ESERCIZIO NUMERO 7   *************************
@@ -656,13 +613,6 @@ else
     console.log("password corretta");
 }
 */
-
-
-
-
-
-
-
 
 
 //Esempio 6: validare una mail string con una regular expression
@@ -884,20 +834,6 @@ si validano mail e password e se non sono buone si ripropone il prompt fino a tr
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 function ValidateEmail(inputText) {
     var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
@@ -919,10 +855,6 @@ if (bRisultatoControllo == false)
     console.log("Attenzione, mail errata");
 }
 */
-
-
-
-
 
 
 /*
