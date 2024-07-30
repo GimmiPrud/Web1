@@ -16,32 +16,35 @@ let A = 20
 }
 console.log("ciao");
 const prompt = require('prompt-sync')();
-/*
-var A = 10
-var B = 20
-Prova();
-console.log("il valore di A è", A);
-var response = prompt("Vuoi inserire un numero(si/no)?")
-if (response == "si")
-{
-    B = prompt("inserisci il numero ");
-}
-sTipo = typeof(B)
-console.log("il tipo di B è" + sTipo)
-vParola = "buonasera"
-for(i = 0;i<vParola.length;i++)
-    console.log("La lettera"+ i + "della parola è" + vParola(i))
-*/
+// var A = 10
+// var B = 20
+// Prova();
+// console.log("il valore di A è", A);
+// var response = prompt("Vuoi inserire un numero(si/no)?")
+// if (response == "si")
+// {
+//     B = prompt("inserisci il numero ");
+// }
+// sTipo = typeof(B)
+// console.log("il tipo di B è" + sTipo)
+// vParola = "buonasera"
+// for(i = 0;i<vParola.length;i++)
+// {
+//     console.log("La lettera"+ i + "della parola è" + vParola(i))
+// }
 
 
 P = prompt("inserisci una parola:\n");
+
 for(i=0;i<P.length;i++)
 {
-    if(P[i]!="a"&&"e"&&"i"&&"o"&&"u"){
+    if(P[i]!="a"&&"e"&&"i"&&"o"&&"u")
+    {
         console.log("La lettera è una consonante")
     }
-    else {
-        console.log("La letterra è una volcale ")
+    else 
+    {
+        console.log("La lettera è una volcale ")
     }
 }
 process.exit(0);
@@ -63,28 +66,28 @@ process.exit(0);
 // process.exit(0);
 
 
-var a;
-var b;
-a = prompt("Inserisci primo numero:")
-b = prompt("Inserisci secondo numero:")
-a1 = parseInt(a)
-b1 = parseInt(b)
-c = a1 + b1
-console.log("La somma vale " + c) 
-process.exit(0);
+// var a;
+// var b;
+// a = prompt("Inserisci primo numero:")
+// b = prompt("Inserisci secondo numero:")
+// a1 = parseInt(a)
+// b1 = parseInt(b)
+// c = a1 + b1
+// console.log("La somma vale " + c) 
+// process.exit(0);
 
 
-a = prompt("Inserisci primo numero:")
-b = prompt("Inserisci secondo numero:")
-c = prompt("Inserisci operatore:")
-a1 = parseInt(a)
-b1 = parseInt(b)
-if(c=="+")
-	d = a1 + b1
-if(c=="-")
-	d = a1 - b1
+// a = prompt("Inserisci primo numero:")
+// b = prompt("Inserisci secondo numero:")
+// c = prompt("Inserisci operatore:")
+// a1 = parseInt(a)
+// b1 = parseInt(b)
+// if(c=="+")
+// 	d = a1 + b1
+// if(c=="-")
+// 	d = a1 - b1
 
-console.log("Risultato " + d) 
+// console.log("Risultato " + d) 
 
 /*
 ESERCIZIO: crea una variabile, chiamale sStringaDaStampare, copia nella variabile un 
