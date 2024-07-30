@@ -9,6 +9,7 @@ La funzione console.log, prende come input una stringa (nell'esempio
 la stringa "ciao" e produce una stampa a schermo della stessa.)
 */
 
+
 function Prova()
 {
 let A = 20
@@ -30,6 +31,7 @@ vParola = "buonasera"
 for(i = 0;i<vParola.length;i++)
     console.log("La lettera"+ i + "della parola è" + vParola(i))
 process.exit(0);
+
 
 
 /*
