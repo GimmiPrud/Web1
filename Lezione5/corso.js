@@ -16,6 +16,7 @@ let A = 20
 }
 console.log("ciao");
 const prompt = require('prompt-sync')();
+/*
 var A = 10
 var B = 20
 Prova();
@@ -30,8 +31,20 @@ console.log("il tipo di B è" + sTipo)
 vParola = "buonasera"
 for(i = 0;i<vParola.length;i++)
     console.log("La lettera"+ i + "della parola è" + vParola(i))
-process.exit(0);
+*/
 
+
+P = prompt("inserisci una parola");
+for(i=0;i<P.length;i++)
+{
+    if(P[i]!="a"&&"e"&&"i"&&"o"&&"u"){
+        console.log("La lettera è una consonante")
+    }
+    else {
+        console.log("La letterra è una volcale ")
+    }
+}
+process.exit(0);
 
 
 /*
