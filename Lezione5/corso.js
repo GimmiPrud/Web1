@@ -13,7 +13,6 @@ function Prova()
 {
 let A = 20
 }
-
 console.log("ciao");
 const prompt = require('prompt-sync')();
 var A = 10
