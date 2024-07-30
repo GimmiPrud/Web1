@@ -9,19 +9,29 @@ La funzione console.log, prende come input una stringa (nell'esempio
 la stringa "ciao" e produce una stampa a schermo della stessa.)
 */
 
-/*
+function Prova()
+{
+let A = 20
+}
+
 console.log("ciao");
-process.exit(0);
-*/
-
-/*
-Per usare il prompt:
-
-npm install prompt-sync
-
-*/
-
 const prompt = require('prompt-sync')();
+var A = 10
+var B = 20
+Prova();
+console.log("il valore di A è", A);
+var response = prompt("Vuoi inserire un numero(si/no)?")
+if (response == "si")
+{
+    B = prompt("inserisci il numero ");
+}
+sTipo = typeof(B)
+console.log("il tipo di B è" + sTipo)
+vParola = "buonasera"
+for(i = 0;i<vParola.length;i++)
+    console.log("La lettera"+ i + "della parola è" + vParola(i))
+process.exit(0);
+
 
 /*
 const str = prompt('Enter a string: ');
@@ -1103,8 +1113,6 @@ function ValidateSaluto(sStringToValidate) {
     }
 }
 */
-
-
 
 
 /*
