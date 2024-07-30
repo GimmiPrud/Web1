@@ -34,7 +34,7 @@ for(i = 0;i<vParola.length;i++)
 */
 
 
-P = prompt("inserisci una parola");
+P = prompt("inserisci una parola:\n");
 for(i=0;i<P.length;i++)
 {
     if(P[i]!="a"&&"e"&&"i"&&"o"&&"u"){
